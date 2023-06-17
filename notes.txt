@@ -1,0 +1,13 @@
+create a new project in GIT with python
+clone https on to your local/ git clone
+write template.py to create folder structure required for the project
+run python template.py
+once created "git add ." in git bash
+git commit -m "Folder structure"
+git push origin main
+#create virtual environment
+conda create -n TSM python=3.8 -y
+# incase conda issue  "source ~/anaconda3/etc/profile.d/conda.sh"
+conda activate TSM
+
+

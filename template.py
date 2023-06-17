@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 import logging 
+# Changing the current working directory
+os.chdir('C:\Projects\Textsum\TextSum')
 #LogString
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
